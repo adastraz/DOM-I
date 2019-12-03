@@ -84,11 +84,13 @@ const newTag = document.createElement('a')
 newTag.textContent = 'Goodbye'
 const parentElement = document.querySelector('nav')
 parentElement.append(newTag)
+newTag.style.color = 'green'
 
 const newTagTwo = document.createElement('a')
 newTagTwo.textContent = 'Hello'
 const parentElementtwo = document.querySelector('nav')
 parentElementtwo.prepend(newTagTwo)
+newTagTwo.style.color = 'green'
 
 //stretch
 const headerbg = document.querySelectorAll('.text-content')
